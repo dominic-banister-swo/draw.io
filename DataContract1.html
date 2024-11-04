@@ -1,0 +1,434 @@
+
+    <html>
+    <head>
+        <title>YAML to HTML</title>
+        <style>
+            body { font-family: Arial, sans-serif; }
+            table { border: 1px solid #ddd; margin: 20px auto; width: auto; border-collapse: collapse; table-layout: auto; }
+            th, td { padding: 10px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            ul { padding-left: 20px; margin: 0; }
+        </style>
+    </head>
+    <body>
+    <table border='1' style='margin-left: 10px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>title</th>
+<td style='padding: 10px; vertical-align: top;'>site24x7 events and incident numbers</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>dataContractSpecification</th>
+<td style='padding: 10px; vertical-align: top;'>0.1</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>id</th>
+<td style='padding: 10px; vertical-align: top;'>urn:datacontract:customer:site24x7-events</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>info</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 20px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>title</th>
+<td style='padding: 10px; vertical-align: top;'>Site 24x7-events</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>version</th>
+<td style='padding: 10px; vertical-align: top;'>0.0.1</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>All Site 24x7 customer monitoring events and associated ServiceNow ticket IDs
+Services:
+  - Azure Advanced
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>owner</th>
+<td style='padding: 10px; vertical-align: top;'>Event Management Team</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>contact</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 30px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>name</th>
+<td style='padding: 10px; vertical-align: top;'>Event Management Team</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>url</th>
+<td style='padding: 10px; vertical-align: top;'>https://softwareone-internal.atlassian.net/wiki/spaces/GSC/pages/17688133694/Who+s+Who#Event-Management-(Splunk)</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>documentation</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 30px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>url</th>
+<td style='padding: 10px; vertical-align: top;'>https://swo-mcc.atlassian.net/wiki/spaces/KNOW/pages/2152628236/How+to+get+access+to+Splunk+data+through+PowerBI+Excel+etc</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>servers</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 20px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>production</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 30px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>curl? splunk?</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>location</th>
+<td style='padding: 10px; vertical-align: top;'>https://swocdc.splunkcloud.com:8089/servicesNS/nobody/SOW_TA_azure2snow/search/jobs/export -d search=&#x27;savedsearch SWO_Services_Azure_Site24x7&#x27;</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>format</th>
+<td style='padding: 10px; vertical-align: top;'>table</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>delimiter</th>
+<td style='padding: 10px; vertical-align: top;'>new_line</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>terms</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 20px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>usage</th>
+<td style='padding: 10px; vertical-align: top;'>Data can be used for reports, analytics, and machine learning use cases.
+Customer-specific data can be presented to the customer.
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>limitations</th>
+<td style='padding: 10px; vertical-align: top;'>Not suitable for real-time use cases.
+Data cannot be shared with third parties.
+Max data processing per day: 10 TiB
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>billing</th>
+<td style='padding: 10px; vertical-align: top;'>
+<ul><li style='padding-left: 10px;'>/MB to be discussed</li>
+</ul></td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>noticePeriod</th>
+<td style='padding: 10px; vertical-align: top;'>
+<ul><li style='padding-left: 10px;'>P3M</li>
+</ul></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>models</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 20px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>alerts</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 30px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>one record per site24x7 alert</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>table</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>fields</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 40px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>_time</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 50px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>The timestamp in UTC when the alert was registered in the source system.</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>timestamp</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>required</th>
+<td style='padding: 10px; vertical-align: top;'>True</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>example</th>
+<td style='padding: 10px; vertical-align: top;'>2024-06-03T07:32:00.000+00:00</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>customer</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 50px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>Customer name</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>$ref</th>
+<td style='padding: 10px; vertical-align: top;'>#/definitions/customer</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>caller</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 50px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>Unique identifier for the customer, in email format and passed to ServiceNow to complete Caller Field</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>email</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>required</th>
+<td style='padding: 10px; vertical-align: top;'>True</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>example</th>
+<td style='padding: 10px; vertical-align: top;'>DEC-SCU-100182.Monitor@softwareone.support</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>raiseIncident</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 50px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>Decider for raising ServiceNow ticket.</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>text</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>required</th>
+<td style='padding: 10px; vertical-align: top;'>True</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>example</th>
+<td style='padding: 10px; vertical-align: top;'>Yes or No</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>category</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 50px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>ServiceNow incident categorization</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>text</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>required</th>
+<td style='padding: 10px; vertical-align: top;'>True</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>example</th>
+<td style='padding: 10px; vertical-align: top;'>Managed Cloud Compute</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>monitor</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 50px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>Name of the monitored entity in Site24x7</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>text</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>required</th>
+<td style='padding: 10px; vertical-align: top;'>True</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>example</th>
+<td style='padding: 10px; vertical-align: top;'>az0wt2aapp01</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 50px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>Type of monitoring entity</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>text</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>required</th>
+<td style='padding: 10px; vertical-align: top;'>True</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>example</th>
+<td style='padding: 10px; vertical-align: top;'>AZURE-VM</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>status</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 50px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>Level of alert based on predefined thresholds</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>text</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>required</th>
+<td style='padding: 10px; vertical-align: top;'>True</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>example</th>
+<td style='padding: 10px; vertical-align: top;'>CRITICAL</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>reason</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 50px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>Short reason for the alert being generated</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>text</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>required</th>
+<td style='padding: 10px; vertical-align: top;'>True</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #cce5ff; text-align: left;'>example</th>
+<td style='padding: 10px; vertical-align: top;'>Percentage CPU exceeds 95%</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>definitions</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 20px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>customer</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 30px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>name</th>
+<td style='padding: 10px; vertical-align: top;'>customer</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>title</th>
+<td style='padding: 10px; vertical-align: top;'>Customer Name</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>text</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>example</th>
+<td style='padding: 10px; vertical-align: top;'>Panasonic GMBH</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>Each SoftwareOne customer is unique.
+It is typically associated with an internal unique identifier.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>examples</th>
+<td style='padding: 10px; vertical-align: top;'>
+<table border='1' style='margin-left: 20px; border-collapse: collapse; table-layout: auto;'>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>type</th>
+<td style='padding: 10px; vertical-align: top;'>csv</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>model</th>
+<td style='padding: 10px; vertical-align: top;'>alerts</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>description</th>
+<td style='padding: 10px; vertical-align: top;'>An example list of alerts.</td>
+</tr>
+<tr>
+<th style='padding: 10px; background-color: #f2f2f2; text-align: left;'>data</th>
+<td style='padding: 10px; vertical-align: top;'>&quot;_time&quot;,customer,caller,raiseIncident,category,monitor,type,status,reason
+&quot;2024-06-03T11:02:00.000+00:00&quot;,&quot;Panasonic GMBH&quot;,&quot;DEC-SCU-100182.Monitor@softwareone.support&quot;,Yes,&quot;Managed Cloud Compute&quot;,euwstbs001management01,&quot;AZURE-STORAGE&quot;,TROUBLE,&quot;Success Server Latency exceeds 100 milliseconds&quot;
+&quot;2024-06-03T10:59:00.000+00:00&quot;,ebosgroup,&quot;AU-SCU-103688.Monitor@softwareone.support&quot;,Yes,&quot;Managed Cloud Compute&quot;,az0wt2aapp01,&quot;AZURE-VM&quot;,TROUBLE,&quot;Percentage CPU exceeds 85%&quot;
+&quot;2024-06-03T04:46:00.000+00:00&quot;,&quot;Sapore SA&quot;,&quot;BR-SCU-106
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
